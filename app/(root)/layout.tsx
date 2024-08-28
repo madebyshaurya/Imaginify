@@ -1,6 +1,6 @@
 
-import MobileNav from "@/components/shared/mobilenav";
-import Sidebar from "@/components/shared/sidebar";
+import MobileNav from "@/components/shared/MobileNav";
+import { Sidebar } from "lucide-react";
 import React from "react";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
